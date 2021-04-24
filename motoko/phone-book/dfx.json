@@ -1,0 +1,17 @@
+{
+  "canisters": {
+    "phone_book": {
+      "main": "src/phone-book/Main.mo"
+    },
+    "www": {
+      "frontend": {
+        "entrypoint": "src/www/index.jsx"
+      },
+      "dependencies": [
+        "phone_book"
+      ],
+      "type": "assets"
+    }
+  },
+  "dfx": "0.6.25"
+}
